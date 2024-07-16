@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Codificação por CodingLab | www.codinglabweb.com -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider de Cartões Responsivo</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Contêiner do slider -->
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <!-- Cada cartão individual no slider -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="./images/goku1.webp" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Goku</h2>
+                        <p class="description">Texto de exemplo que contém um cabeçalho com funcionalidade aberta. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="button">Ver Mais</button>
+                    </div>
+                </div>
+                <!-- Repita o bloco acima para cada cartão adicional -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="./images/Goku2.webp" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Goku</h2>
+                        <p class="description">Texto de exemplo que contém um cabeçalho com funcionalidade aberta. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="button">Ver Mais</button>
+                    </div>
+                </div>
+                <!-- Continue adicionando cartões conforme necessário -->
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="./images/Goku3.webp" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Goku</h2>
+                        <p class="description">Texto de exemplo que contém um cabeçalho com funcionalidade aberta. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="button">Ver Mais</button>
+                    </div>
+                </div>
+                <!-- Adicione mais cartões aqui -->
+            </div>
+        </div>
+
+        <!-- Botões de navegação do Swiper -->
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
